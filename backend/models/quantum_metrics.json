@@ -1,0 +1,144 @@
+{
+  "accuracy": 0.75,
+  "precision": 0.8421,
+  "recall": 0.6957,
+  "f1_score": 0.7619,
+  "confusion_matrix": {
+    "matrix": [
+      [
+        14,
+        3
+      ],
+      [
+        7,
+        16
+      ]
+    ],
+    "true_negative": 14,
+    "false_positive": 3,
+    "false_negative": 7,
+    "true_positive": 16
+  },
+  "sample_size": 40,
+  "training_time_sec": 3.387,
+  "inference_time_ms": 98.28,
+  "loss_history": [
+    {
+      "step": 1,
+      "loss": 1.31457,
+      "weights_norm": 1.5745
+    },
+    {
+      "step": 2,
+      "loss": 1.57015,
+      "weights_norm": 2.2664
+    },
+    {
+      "step": 3,
+      "loss": 1.32479,
+      "weights_norm": 2.0334
+    },
+    {
+      "step": 4,
+      "loss": 1.31513,
+      "weights_norm": 1.9887
+    },
+    {
+      "step": 5,
+      "loss": 1.33107,
+      "weights_norm": 2.0195
+    },
+    {
+      "step": 6,
+      "loss": 1.20064,
+      "weights_norm": 1.9451
+    },
+    {
+      "step": 7,
+      "loss": 1.19923,
+      "weights_norm": 2.4351
+    },
+    {
+      "step": 8,
+      "loss": 1.18985,
+      "weights_norm": 2.9182
+    },
+    {
+      "step": 9,
+      "loss": 1.19691,
+      "weights_norm": 3.3181
+    },
+    {
+      "step": 10,
+      "loss": 1.16826,
+      "weights_norm": 2.9967
+    },
+    {
+      "step": 11,
+      "loss": 1.0204,
+      "weights_norm": 3.6089
+    },
+    {
+      "step": 12,
+      "loss": 1.03576,
+      "weights_norm": 5.2141
+    },
+    {
+      "step": 13,
+      "loss": 0.94096,
+      "weights_norm": 3.6459
+    },
+    {
+      "step": 14,
+      "loss": 1.12562,
+      "weights_norm": 4.0909
+    },
+    {
+      "step": 15,
+      "loss": 0.94432,
+      "weights_norm": 3.7563
+    },
+    {
+      "step": 16,
+      "loss": 0.89566,
+      "weights_norm": 3.9373
+    },
+    {
+      "step": 17,
+      "loss": 0.97675,
+      "weights_norm": 4.4438
+    },
+    {
+      "step": 18,
+      "loss": 0.88922,
+      "weights_norm": 4.0487
+    },
+    {
+      "step": 19,
+      "loss": 0.92696,
+      "weights_norm": 4.5038
+    },
+    {
+      "step": 20,
+      "loss": 0.88399,
+      "weights_norm": 4.0984
+    }
+  ],
+  "circuit_metadata": {
+    "num_qubits": 4,
+    "depth": 15,
+    "decomposed_depth": 15,
+    "total_gates": 28,
+    "gate_counts": {
+      "U": 11,
+      "CX": 9,
+      "R": 8
+    },
+    "num_parameters": 8,
+    "feature_dimension": 4,
+    "feature_map_name": "ZZFeatureMap (Second-order Pauli-Z Evolution)",
+    "ansatz_name": "RealAmplitudes (Parameterized Ry + Entangling CX)",
+    "entanglement": "Linear Entanglement Topology",
+    "simulator": "Qiskit Statevector / Aer Simulator"
+  }
+}
